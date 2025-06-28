@@ -3,7 +3,8 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master' based on your default branch
+      - main  
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -30,5 +31,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # ✅ This is the correct built-in token
           publish_dir: ./build
