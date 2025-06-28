@@ -26,21 +26,21 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "bhavanimanikala99@gmail.com",
-      link: "mailto:bhavanimanikala99@gmail.com",
+      value: "m.b.durgabhavani@gmail.com",
+      link: "mailto:m.b.durgabhavani@gmail.com",
       description: "Drop me a line anytime"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       title: "LinkedIn",
-      value: "linkedin.com/in/dedeepya-chowdary",
-      link: "https://linkedin.com/in/dedeepya-chowdary",
+      value: "linkedin.com/in/durgabhavanimanikala/",
+      link: "https://www.linkedin.com/in/durgabhavanimanikala/",
       description: "Let's connect professionally"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "Available for Remote Work",
+      value: "Hyderabad, India",
       link: "#",
       description: "Open to global opportunities"
     }
@@ -202,7 +202,7 @@ const Contact = () => {
                   href="mailto:bhavanimanikala99@gmail.com"
                   className="text-beige-600 hover:text-beige-700 font-medium"
                 >
-                  bhavanimanikala99@gmail.com
+                  m.b.durgabhavani@gmail.com
                 </a>
               </p>
             </div>
