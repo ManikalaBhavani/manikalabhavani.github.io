@@ -117,7 +117,7 @@ const Header = () => {
               ))}
               <div className="pt-4 pb-2 border-t border-beige-200">
                 <a
-                  href="mailto:bhavanimanikala99@gmail.com"
+                  href="mailto:m.b.durgabhavani@gmail.com"
                   className="flex items-center px-3 py-2 text-base font-medium text-olive-700 hover:text-beige-600 hover:bg-beige-100 rounded-md transition-colors"
                 >
                   <Mail className="w-5 h-5 mr-3 text-olive-600" />
