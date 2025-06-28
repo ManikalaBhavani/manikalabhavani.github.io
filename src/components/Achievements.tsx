@@ -131,7 +131,7 @@ const Achievements = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:bhavanimanikala99@gmail.com"
+                href="mailto:m.b.durgabhavani@gmail.com"
                 className="inline-flex items-center px-8 py-3 bg-beige-500 text-olive-800 font-semibold rounded-lg hover:bg-beige-600 transition-all duration-200 transform hover:scale-105"
               >
                 <Trophy className="w-5 h-5 mr-2" />
