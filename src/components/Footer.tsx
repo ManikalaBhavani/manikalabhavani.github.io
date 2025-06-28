@@ -15,12 +15,12 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/dedeepya-chowdary',
+      href: 'https://www.linkedin.com/in/durgabhavanimanikala/',
       icon: <Linkedin className="w-5 h-5" />
     },
     {
       name: 'Email',
-      href: 'mailto:bhavanimanikala99@gmail.com',
+      href: 'mailto:m.b.durgabhavani@gmail.com',
       icon: <Mail className="w-5 h-5" />
     }
   ];
@@ -125,7 +125,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Decorative Elements */}
+{/*           {/* Decorative Elements */}
           <div className="mt-6 pt-6 border-t border-olive-800">
             <div className="flex items-center justify-center space-x-4 text-xs text-beige-400">
               <div className="flex items-center space-x-1">
@@ -137,7 +137,7 @@ const Footer = () => {
               <span>•</span>
               <span>Building for the future</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
