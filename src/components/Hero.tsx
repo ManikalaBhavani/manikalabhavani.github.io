@@ -42,7 +42,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:bhavanimanikala99@gmail.com"
+                href="mailto:m.b.durgabhavani@gmail.com"
                 className="inline-flex items-center justify-center px-8 py-4 bg-olive-700 text-beige-100 text-lg font-semibold rounded-lg hover:bg-olive-800 transform hover:scale-105 transition-all duration-200 shadow-lg"
               >
                 <Mail className="w-5 h-5 mr-2" />
@@ -61,7 +61,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex items-center justify-center space-x-6 pt-8">
               <a
-                href="https://linkedin.com/in/dedeepya-chowdary"
+                href="https://www.linkedin.com/in/durgabhavanimanikala/"
                 className="text-olive-600 hover:text-olive-700 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
