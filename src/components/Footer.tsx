@@ -83,7 +83,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 text-beige-300">Get Started</h4>
             <div className="space-y-3">
               <a
-                href="mailto:bhavanimanikala99@gmail.com"
+                href="mailto:m.b.durgabhavani@gmail.com"
                 className="flex items-center text-beige-300 hover:text-beige-100 transition-colors"
               >
                 <Mail className="w-4 h-4 mr-2" />
@@ -125,19 +125,6 @@ const Footer = () => {
             </div>
           </div>
 
-{/*           {/* Decorative Elements */}
-          <div className="mt-6 pt-6 border-t border-olive-800">
-            <div className="flex items-center justify-center space-x-4 text-xs text-beige-400">
-              <div className="flex items-center space-x-1">
-                <Coffee className="w-3 h-3" />
-                <span>Fueled by coffee and data</span>
-              </div>
-              <span>•</span>
-              <span>Making data-driven decisions accessible</span>
-              <span>•</span>
-              <span>Building for the future</span>
-            </div>
-          </div> */}
         </div>
       </div>
     </footer>
