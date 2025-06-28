@@ -87,7 +87,7 @@ const Footer = () => {
                 className="flex items-center text-beige-300 hover:text-beige-100 transition-colors"
               >
                 <Mail className="w-4 h-4 mr-2" />
-                bhavanimanikala99@gmail.com
+                m.b.durgabhavani@gmail.com
               </a>
               <a
                 href="#"
