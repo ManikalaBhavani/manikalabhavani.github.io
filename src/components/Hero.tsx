@@ -69,7 +69,7 @@ const Hero = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="#"
+                href="https://github.com/ManikalaBhavani"
                 className="text-olive-600 hover:text-olive-700 transition-colors"
               >
                 <Github className="w-6 h-6" />
