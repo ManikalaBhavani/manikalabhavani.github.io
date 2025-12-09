@@ -2,79 +2,74 @@ import React from 'react';
 
 const Skills = () => {
   const allSkills = [
-    {
-      name: "SQL",
-      category: "Database",
-      icon: "🗄️",
-      description: "Advanced database querying and optimization"
-    },
-    {
-      name: "SSIS",
-      category: "ETL",
-      icon: "🔄",
-      description: "SQL Server Integration Services for data pipelines"
-    },
-    {
-      name: "Python",
-      category: "Programming",
-      icon: "🐍",
-      description: "Automation scripts and data processing"
-    },
-    {
-      name: "ServiceNow",
-      category: "Platform",
-      icon: "⚙️",
-      description: "IT service management and workflow automation"
-    },
-    {
-      name: "Tableau",
-      category: "Visualization",
-      icon: "📊",
-      description: "Business intelligence and data visualization"
-    },
-    {
-      name: "SSMS",
-      category: "Database",
-      icon: "💾",
-      description: "SQL Server Management Studio"
-    },
-    {
-      name: "Cognos",
-      category: "Reporting",
-      icon: "📈",
-      description: "Enterprise reporting and analytics"
-    },
-    {
-      name: "PowerBI",
-      category: "Visualization",
-      icon: "⚡",
-      description: "Microsoft business analytics solution"
-    },
-    {
-      name: "GDPR Compliance",
-      category: "Governance",
-      icon: "🛡️",
-      description: "Data protection and privacy regulations"
-    },
-    {
-      name: "Data Quality",
-      category: "Governance",
-      icon: "✅",
-      description: "Data validation and quality assurance"
-    },
-    {
-      name: "ETL Pipelines",
-      category: "Engineering",
-      icon: "🔗",
-      description: "Extract, Transform, Load data processes"
-    },
-    {
-      name: "API Integration",
-      category: "Integration",
-      icon: "🔌",
-      description: "System integration and data exchange"
-    }
-  ];
+  {
+    name: "Microsoft SQL Server",
+    category: "Database",
+    icon: "🗄️",
+    description: "Designing tables, views, indexing and performance tuning"
+  },
+  {
+    name: "SSIS",
+    category: "ETL",
+    icon: "🔄",
+    description: "Building and managing ETL workflows and data pipelines"
+  },
+  {
+    name: "SQL-based ETL Pipelines",
+    category: "ETL",
+    icon: "🔗",
+    description: "End-to-end ETL development using SQL-driven transformations"
+  },
+  {
+    name: "Python",
+    category: "Programming",
+    icon: "🐍",
+    description: "Data processing using Pandas and NumPy"
+  },
+  {
+    name: "IBM Cognos",
+    category: "Reporting",
+    icon: "📈",
+    description: "Report development and metadata modeling"
+  },
+  {
+    name: "Power BI",
+    category: "Visualization",
+    icon: "📊",
+    description: "Dashboard creation and business analytics"
+  },
+  {
+    name: "Excel",
+    category: "Visualization",
+    icon: "📘",
+    description: "Data analysis, lookups, pivot tables, and automation"
+  },
+  {
+    name: "Data Modeling",
+    category: "Engineering",
+    icon: "📐",
+    description: "Designing scalable relational data models"
+  },
+  {
+    name: "Stored Procedure Optimization",
+    category: "Engineering",
+    icon: "⚙️",
+    description: "Tuning complex stored procedures for performance"
+  },
+  {
+    name: "Data Quality & Validation",
+    category: "Governance",
+    icon: "✅",
+    description: "Ensuring accuracy, consistency, and reliability of data"
+  },
+  {
+    name: "Azure (AZ-104)",
+    category: "Cloud",
+    icon: "☁️",
+    description: "Azure administration and cloud ecosystem knowledge"
+  }
+];
+
 
   const categories = [
     { name: "Database", color: "bg-olive-100 text-olive-700" },

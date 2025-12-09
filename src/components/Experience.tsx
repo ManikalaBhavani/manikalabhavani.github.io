@@ -14,10 +14,12 @@ const Experience = () => {
         duration: "November 2024 - Present",
         type: "Current Role",
         achievements: [
-          "Built scalable internal data pipelines using SSIS, improving ETL processing speed by 30%",
-          "Automated validation scripts for internal systems, reducing data errors by 45%",
-          "Integrated GDPR-compliant access protocols with security team for client data",
-          "Aligned governance frameworks with internal data ingestion/transformation flows"
+          "Designed ETL workflows to automate file extraction, transformation, and loading into staging and core tables.",
+          "Developed, optimized, and deployed stored procedures to implement complex business logic and transformation rules.",
+          "Designed SQL tables, views, and stored procedures aligned with business data requirements",
+          "Improved ETL process performance by optimizing SQL queries, indexing, and removing bottlenecks.",
+          "Performed data extraction from heterogeneous data sources, conducted cleansing, validation, and reconciliation",
+          "Created technical documentation including requirements, test cases, and production support artifacts."
         ],
         technologies: ["SSIS", "SQL", "Python", "GDPR", "Data Governance"],
         icon: <Database className="w-5 h-5" />
@@ -28,10 +30,13 @@ const Experience = () => {
         duration: "September 2022 - October 2024",
         type: "Previous Role",
         achievements: [
-          "Managed internal data operations, system integration, and SQL schema design",
-          "Handled incident management and resolution via ServiceNow platform",
-          "Improved data quality and reporting accuracy for internal applications",
-          "Collaborated with cross-functional teams to deliver internal data solutions"
+          "Managed and validated operational and transactional datasets to maintain high data accuracy and consistency.",
+          "Optimized SQL queries and stored procedures for improved performance and faster data retrieval.",
+          "Troubleshot database objects and reporting views using SSMS to ensure smooth data operations.",
+          "Built and maintained Cognos Framework Manager models for reporting and metadata management.",
+          "Developed BI dashboards and reports to provide insights for operations and business teams.",
+          "Delivered ad-hoc SQL analysis for business investigations, anomaly detection, and data insights.",
+          "Ensured data consistency, quality, and integrity across multiple reporting layers."
         ],
         technologies: ["SQL", "SSMS", "ServiceNow", "Data Quality", "IBM Cognos"],
         icon: <Settings className="w-5 h-5" />

@@ -81,7 +81,7 @@ const Header = () => {
               Contact
             </a>
             <a
-              href="#"
+              href="https://manikalabhavani.github.io/Bhavani_Manikala.pdf"
               className="inline-flex items-center px-4 py-2 bg-beige-500 text-olive-800 text-sm font-medium rounded-md hover:bg-beige-600 transition-colors"
             >
               <Download className="w-4 h-4 mr-2" />

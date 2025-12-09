@@ -50,33 +50,13 @@ const Hero = () => {
               </a>
               
               <a
-                href="#"
+                href="https://manikalabhavani.github.io/Bhavani_Manikala.pdf"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-olive-600 text-olive-700 text-lg font-semibold rounded-lg hover:bg-olive-700 hover:text-beige-100 transition-all duration-200"
               >
                 <Download className="w-5 h-5 mr-2" />
                 View Resume
               </a>
             </div>
-
-            {/* Social Links */}
-            <div className="flex items-center justify-center space-x-6 pt-8">
-              <a
-                href="https://www.linkedin.com/in/durgabhavanimanikala/"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a
-                href="https://github.com/ManikalaBhavani"
-                className="text-olive-600 hover:text-olive-700 transition-colors"
-              >
-                <Github className="w-6 h-6" />
-              </a>
-            </div>
-          </div>
-        </div>
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
